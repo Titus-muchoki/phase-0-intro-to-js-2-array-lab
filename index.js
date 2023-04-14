@@ -28,5 +28,5 @@ function removeLastCat(name){
    return cats.slice(0,2);
 }
 function removeFirstCat(name){
-    return cats.slice(0,1);
+    return cats.slice(1);
 }
