@@ -24,3 +24,6 @@ function prependCat(name){
         ...cats,
     ]
 }
+function removeLastCat(name){
+   return cats.slice(0,2);
+}
